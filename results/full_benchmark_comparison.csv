@@ -1,0 +1,7 @@
+Representation,Model,Accuracy (%),Macro-Precision,Macro-Recall,Macro-F1
+Raw Pixels (3072-d),Logistic Regression,28.8,0.3011,0.2823,0.2876
+Raw Pixels (3072-d),Linear/RBF SVM (SVC),37.2,0.3784,0.3638,0.3633
+Raw Pixels (3072-d),Random Forest (200 trees),39.6,0.4026,0.3898,0.3846
+CLIP Text-Image,Zero-Shot CLIP,91.2,0.9207,0.9106,0.9106
+CLIP Embeddings,Logistic Regression,92.4,0.9294,0.9229,0.9228
+CLIP Embeddings,SVM (SVC),92.8,0.9327,0.9271,0.9271
